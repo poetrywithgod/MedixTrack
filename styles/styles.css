@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Grifter Sans;
+    src: url(../grifterbold.otf)
+  }
+  
+.main-header {
+    font-family: 'Grifter Sans', sans-serif;
+    font-size: 56.72px;
+  }
+  
+header {
+    padding: 1rem;
+    font-family: "Inter", sans-serif;
+    border-bottom: 1px solid #e2e8f0;
+    
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+}
+
+img {
+    height: 33.5px;
+    /* fixed height for the logo */
+    width: auto;
+    /* keep the aspect ratio */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* allow the nav to grow */
+}
+
+.main-header {
+    font-family: "Grifer", sans-serif;
+}
+
+nav>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* space between nav items */
+}
+
+nav>div:first-child a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #4a5568;
+    /* gray text */
+}
+
+nav>div:first-child a:hover {
+    color: #000;
+    /* black on hover */
+}
+
+nav>div:last-child a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+nav>div:last-child a:first-child {
+    color: #4a5568;
+    /* gray text */
+}
+
+nav>div:last-child a:last-child {
+    background-color: #f56565;
+    /* red background */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    /* fully rounded */
+    transition: background-color 0.2s;
+}
+
+nav>div:last-child a:last-child:hover {
+    background-color: #e53e3e;
+    /* darker red on hover */
+}
+
+
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Add more specific styling for mobile view if needed */
+
+
+main {
+    margin-top: 4rem; /* Add top margin to prevent touching the header */
+    margin-bottom: 2rem;
+}
+
+section:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content in the left section */
+    padding: 2rem; /* Adjust padding */
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    color: #4a5568; /* Ensure consistent text color */
+}
+
+a.bg-red-500 {
+    background-color: #f56565; /* Red background for button */
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px; /* Fully rounded button */
+    transition: background-color 0.3s;
+}
+
+a.bg-red-500:hover {
+    background-color: #e53e3e; /* Darker red on hover */
+}
+
+a.text-gray-700:hover {
+    color: #000; /* Black text on hover */
+}
+
+.flex.space-x-4 img {
+    height: 38px; 
+    width: auto; 
+}
+
+section .healthcare {
+    font-family: "Inter", sans-serif;
+}
+
+
+.grid .bg-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.grid .bg-white .text-xl {
+    margin-top: auto; 
+}
+
+.grid .bg-white p.text-sm {
+    margin-bottom: 0;
+}
+
+.grid .bg-white .p-6 {
+    flex-grow: 1; 
+}
+
+section .And-More {
+    font-family: 'Inter', sans-serif;
+}
+
+ul.text-gray-600 li {
+    margin-bottom: 21px;
+  }
+
+ 
